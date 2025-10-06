@@ -4,7 +4,9 @@ import com.mailservice.dto.UserDTO;
 import com.mailservice.service.EmailService;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class EmailWelcomeConsumer {
     private static final String QUEUE_NAME = "email-welcome.queue";
 
