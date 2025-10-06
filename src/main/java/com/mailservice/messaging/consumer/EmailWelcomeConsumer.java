@@ -1,4 +1,4 @@
-package com.mailservice.rabbitmq.consumer;
+package com.mailservice.messaging.consumer;
 
 import com.mailservice.dto.UserDTO;
 import com.mailservice.service.EmailService;
